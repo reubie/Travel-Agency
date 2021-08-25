@@ -41,4 +41,21 @@
       margin: 0%;
       padding: 0%;
   }
+  .menu-container {
+    padding: 0;
+    width: 100%;
+    display: block;
+    background-color: #18242e;
+  }
+  ul {
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    display: -webkit-flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+    list-style-type: none;
+}
 
