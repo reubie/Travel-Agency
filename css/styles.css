@@ -102,3 +102,60 @@
     height:100%;
   } 
 
+/* Centered text */
+  .centered {
+    position: absolute;
+    font-size: 360%;
+    font-family: fantasy;
+    color: whitesmoke;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  -awardsBobs__item {
+    background: #fff;
+    text-align: center;
+    border: 1px solid #eee;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    color: #252e39;
+    display: block;
+}
+.c-awardsBobs__imageContainer {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 30.5rem;
+  overflow: hidden;
+   
+}
+.c-awardsBobs__item {
+  background: #fff;
+  text-align: center;
+  border: 1px solid #eee;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  color: #f7325e;
+  display: block;
+}
+.mock-link {
+  color: #740316;
+  text-decoration: none;
+  cursor: pointer;
+}
+.awardsBobs ul {
+  list-style: none;
+  box-sizing: border-box;
+  padding: 0;
+}
+P { 
+  text-align: center
+ }
+
